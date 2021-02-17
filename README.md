@@ -1,6 +1,6 @@
-## Generation of Search Routes From  Probabality Imagea
+## Generation of Search Routes From a Probabality Image map
 
-This is similar to SHARD, but an exploration on the use of a Probabilistic Greyscale Image, as the spource. So review the map of probabilites, and select the highest probabilities,as the way point Sensor Search points. The greyscale image map is ingested, scalled to 100x100 pixels using cv2 and each pixel divided down by 255 to represent a probablity of threat.    
+This generates a surveillance route, making use of a Probabilistic Greyscale Image, as the source of probable objects. So review the map of probabilites, and select the highest probabilities,as the way point Sensor Search points. The greyscale image map is ingested, scalled to 100x100 pixels using cv2 and each pixel divided down by 255 to represent a probablity of threat.    
 
 ![picture alt](https://github.com/JulesVerny/ProbASWRoute/blob/main/data/ASW1.png "Raw Image Pic")
 
